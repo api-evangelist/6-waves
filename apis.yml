@@ -1,8 +1,24 @@
 aid: 6-waves
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/6-waves.png
 name: 6 Waves
-description: '6 Waves is a company surfaced as a portfolio company of insight-partners and added to the
-  API Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: '6waves is a global mobile game publisher founded in 2008 and headquartered in Hong Kong,
+  with offices in China, Japan, and the United States. The company partners with independent game
+  developers around the world to publish, localize, and operate social and mobile games, offering
+  culturalization, product guidance, live operations, marketing, platform relationships, customer
+  service and community management, technical support, quality assurance, and VIP management. 6waves
+  is recognized as a pioneer of top-grossing mobile game publishing, particularly in the Japanese
+  market, and is a portfolio company of Insight Partners.'
 url: https://raw.githubusercontent.com/api-evangelist/6-waves/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +28,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Consumer
+- Games
+- Mobile Games
+- Game Publishing
+- Gaming
+- Entertainment
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +44,16 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/6-waves-domain-security.yml
 - type: Website
-  url: http://www.6waves.com/
+  url: https://www.6waves.com/
+- type: PrivacyPolicy
+  url: https://www.6waves.com/privacy-policy
+- type: TermsOfService
+  url: https://www.6waves.com/tos
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
